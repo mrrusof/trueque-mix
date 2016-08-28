@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root 'pages#root'
   get '/items/:id/photo', to: 'items#photo'
   resources :items
   resources :users
