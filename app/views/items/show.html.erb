@@ -2,7 +2,12 @@
 
 <p>
   <strong>User:</strong>
-  <%= @item.user_id %>
+  <%= @item.user_id %>:<%= @item.user.email %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @item.name %>
 </p>
 
 <p>
